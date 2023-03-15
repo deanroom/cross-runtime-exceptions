@@ -10,7 +10,7 @@ if (CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
 endif ()
 
 add_executable(native_exceptions main.cpp native-exceptions.cpp native-exceptions.h)
-TARGET_LINK_LIBRARIES(native_exceptions PRIVATE CLI11 client)
+TARGET_LINK_LIBRARIES(native_exceptions PRIVATE client)
 
 
 
